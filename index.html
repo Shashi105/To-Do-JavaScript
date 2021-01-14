@@ -5,9 +5,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
-    <title>To Do List</title>
+    <title>TaskHUB</title>
 </head>
 <body>
-    
+    <!-- Landing starts here -->
+    <div id="landingPage">
+            <header>
+               <table>           
+                        <span style="margin-left:20px">TaskHUB</span>
+               </table>
+            </header>
+            <main>
+                <section>
+                       <span></span>
+                </section>
+                <p>
+                    TaskHUB is an efficient task management system and project management software to gather your thoughts and ideas in one place. You can create tasks, make to-do lists, and make notes to capture important information so that you don’t have to remember everything.
+                </p>
+                <br>
+                <button id="signUpRedirect" style="margin-top:10px">Sign Up</button>    
+                <button id="loginRedirect" style="margin-top:10px">Login</button>
+            </main>
+    </div>
+    <!-- Login starts here -->
+    <div id="loginPage">
+        <header>
+            <table>           
+                     <span style="margin-left:20px">TaskHUB</span>
+            </table>
+         </header>
+        <table style="width: 500px;margin-left:400px;margin-top: auto;border:solid 2px blue ;">
+               <tr style="height:20px;width:500px;border:solid 2px blue;background-color:blue;">
+                         
+                </tr>
+               
+                <tr margin-top="10px" margin-botttom="10px">
+                    <td>
+                        <label style=" margin-left:80px "   for="name">User Name</label>
+                    </td>
+                    
+                    <td  >
+                        <input id="userName" class="input_field" type="text" >
+                    </td>
+                </tr>
+                <tr><br></tr>
+                <tr>
+                    <td>
+                        <label style=" margin-left:80px "   for="pwd" >Password</label>
+                    </td>
+                    <td > 
+                        <input id="password" class="input_field" type="password"  name="pwd" >                
+                    </td>
+                </tr>
+                <tr><br></tr>
+                 <tr>
+                    <td></td>
+                    <td>
+                        <button id="login" class="main_button" >Login</button>
+                        <button id="back" class="main_button" >Back</button>
+                    </td>
+                </tr>
+        </table>
+    </div>
+    <!--SignUp starts here  -->
+    <div id="signUpPage">
+        <header>
+            <table>           
+                     <span style="margin-left:20px">TaskHUB</span>
+            </table>
+         </header>
+        <table style="width: 500px;margin-left:400px;margin-top: auto;border:solid 2px blue ;">
+            <tr style="height:20px;width:500px;border:solid 2px blue;background-color:blue;">
+                      
+             </tr>
+            
+             <tr margin-top="10px" margin-botttom="10px">
+                 <td>
+                     <label  for="firstName" style=" margin-left:80px ">First Name</label>
+                 </td>
+                 
+                 <td  >
+                     <input id="firstName" class="input_field" type="text" >
+                 </td>
+             </tr>
+             <tr margin-top="10px" margin-botttom="10px">
+                <td>
+                    <label style=" margin-left:80px "  for="lastName">Last Name</label>
+                </td>
+                
+                <td  >
+                    <input id="lastName" class="input_field" type="text" >
+                </td>
+            </tr>
+            <tr margin-top="10px" margin-botttom="10px">
+                <td>
+                    <label style=" margin-left:80px "  for="name">Email</label>
+                </td>
+                
+                <td  >
+                    <input id="email" class="input_field" type="text" >
+                </td>
+            </tr>
+             <tr><br></tr>
+             <tr>
+                 <td>
+                     <label style=" margin-left:80px "   for="pwd" >Password</label>
+                 </td>
+                 <td > 
+                     <input id="passwordSignUp" class="input_field" type="password"  name="pwd" >                
+                 </td>
+             </tr>
+             <tr><br></tr>
+              <tr>
+                 <td></td>
+                 <td>
+                     <button id="login" class="main_button" >Sign Up</button>
+                     <button id="backSignUp" class="main_button" >Back</button>
+                 </td>
+             </tr>
+     </table>
+    </div>
+    <!-- Dashboard starts here -->
+    <div id="dashboard">
+        <header>
+            <table>           
+                     <span style="margin-left:20px">TaskHUB</span>
+            </table>
+         </header>
+         <button id="backDashboard" class="main_button" >Back</button>
+    </div>
 </body>
 </html>
